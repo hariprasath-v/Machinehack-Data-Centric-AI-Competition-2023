@@ -1,5 +1,12 @@
 # Machinehack-Data-Centric-AI-Competition-2023
 
+## Public Leaderboard
+* Rank : 15
+* Score : 0.96096
+## Private Leaderboard
+* Rank : 16
+* Score : 0.96096
+
 
 ### Competition hosted on <a href="https://machinehack.com/hackathons/data_centric_ai_competition_2023_image_data/overview">Machinehack</a>
 
