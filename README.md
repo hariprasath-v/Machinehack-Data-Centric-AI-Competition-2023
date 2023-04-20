@@ -20,7 +20,7 @@ Build machine learning model to predict the character of each image..
 
 You can download the dataset <a href="https://machinehack.com/hackathons/data_centric_ai_competition_2023_image_data/data">here</a>    
 
-### Solution:
+### Solution
 
 ### Exploratory Data Analysis
 
@@ -50,18 +50,39 @@ cleanlab tool.Then, based on the self-confidence level the miss labeled images a
 collected.
 
 
-### Trained KNN classifier with 1 nearest neighbor.
+### Incorrect Label Image sample
 
-![Alt text](-)
+#### Numbers
+![Alt text](https://github.com/hariprasath-v/Machinehack-Data-Centric-AI-Competition-2023/blob/main/EDA%20%26%20Model%20Interpretation%20Visualization/Incorrect%20label%20number%20class.png)
 
-![Alt text](-)
+#### Letters
+![Alt text](https://github.com/hariprasath-v/Machinehack-Data-Centric-AI-Competition-2023/blob/main/EDA%20%26%20Model%20Interpretation%20Visualization/Incorrect%20label%20letter%20class.png)
+
+### After removing 2834 miss labeled images from the train dataset, the cleaned data was trained with KNN classifier model with 1 nearest neighbor.
+### KNN model gives good accuracy(0.8995) on validation data.
+
+### ROC-AUC Score
+![Alt text](https://github.com/hariprasath-v/Machinehack-Data-Centric-AI-Competition-2023/blob/main/EDA%20%26%20Model%20Interpretation%20Visualization/KNN%20ROC%20AUC%20score%20plot.png)
+
+### True Positive Rate
+![Alt text](https://github.com/hariprasath-v/Machinehack-Data-Centric-AI-Competition-2023/blob/main/EDA%20%26%20Model%20Interpretation%20Visualization/KNN%20True%20positive%20rate%20plot.png)
+
+### <a href="https://github.com/hariprasath-v/Machinehack-Data-Centric-AI-Competition-2023/blob/main/Approach%20%26%20Solution%20-%20Data%20Centric%20AI%20Competition%202023%20%5BImage%20Data%5D.pdf">For more information about the model.</a>    
+
+### Test Prediction
+
+### Numbers
+![Alt text](https://github.com/hariprasath-v/Machinehack-Data-Centric-AI-Competition-2023/blob/main/EDA%20%26%20Model%20Interpretation%20Visualization/Test%20prediction%20-%20Number%20class.png)
+
+### Letters
+![Alt text](https://github.com/hariprasath-v/Machinehack-Data-Centric-AI-Competition-2023/blob/main/EDA%20%26%20Model%20Interpretation%20Visualization/Test%20prediction%20-%20Letter%20class.png)
 
 
-### File information
+### File Information
 
-eda.ipynb[![Open in Kaggle](https://img.shields.io/static/v1?label=&message=Open%20in%20Kaggle&labelColor=grey&color=blue&logo=kaggle)](-)
+data-centric-ai-competition-2023-image-data-eda.ipynb[![Open in Kaggle](https://img.shields.io/static/v1?label=&message=Open%20in%20Kaggle&labelColor=grey&color=blue&logo=kaggle)](https://www.kaggle.com/hari141v/data-centric-ai-competition-2023-image-data-eda)
  
-model.ipynb[![Open in Kaggle](https://img.shields.io/static/v1?label=&message=Open%20in%20Kaggle&labelColor=grey&color=blue&logo=kaggle)](-)
+data-centric-ai-competition-2023-image-data-model.ipynb[![Open in Kaggle](https://img.shields.io/static/v1?label=&message=Open%20in%20Kaggle&labelColor=grey&color=blue&logo=kaggle)](https://www.kaggle.com/code/hari141v/data-centric-ai-competition-2023-image-data-model)
  
  
    
